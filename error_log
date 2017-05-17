@@ -28,3 +28,6 @@
 [16-May-2017 19:16:48 America/Chicago] HTTP 404 (GET /intro.js)
 [16-May-2017 19:16:48 America/Chicago] [328/IntroToJs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
 [16-May-2017 19:16:48 America/Chicago] [328/IntroToJs/index.php:25] Base->run()
+[16-May-2017 21:59:31 America/Chicago] HTTP 404 (GET /pages/intro.js)
+[16-May-2017 21:59:31 America/Chicago] [328/IntroToJs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[16-May-2017 21:59:31 America/Chicago] [328/IntroToJs/index.php:25] Base->run()
