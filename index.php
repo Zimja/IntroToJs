@@ -18,7 +18,7 @@
     $f3->route('GET /', function() {
                 $view = new View;
                 echo $view->render
-                    ('intro.js');
+                    ('pages/home.html');
             });
     
     //Run fat free
