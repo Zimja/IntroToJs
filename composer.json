@@ -1,0 +1,14 @@
+{
+    "name": "bsaylor/IntroToJs",
+    "authors":
+    [
+                {
+                    "name": "Brian Saylor",
+                    "email": "bsaylor3@mail.greenriver.edu"
+                }
+    ],
+    "require":
+        {
+            "bcosca/fatfree-core": "dev-master"
+        }
+} 

@@ -1,0 +1,9 @@
+[16-May-2017 18:12:37 America/Chicago] Fatal error: Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD'
+[16-May-2017 18:12:37 America/Chicago] [328/IntroToJs/index.php:15] 
+[16-May-2017 18:12:49 America/Chicago] Unable to open pages/intro.js
+[16-May-2017 18:12:49 America/Chicago] [328/IntroToJs/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[16-May-2017 18:12:49 America/Chicago] [328/IntroToJs/vendor/bcosca/fatfree-core/base.php:2740] user_error()
+[16-May-2017 18:12:49 America/Chicago] [328/IntroToJs/index.php:21] View->render()
+[16-May-2017 18:12:49 America/Chicago] [328/IntroToJs/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[16-May-2017 18:12:49 America/Chicago] [328/IntroToJs/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[16-May-2017 18:12:49 America/Chicago] [328/IntroToJs/index.php:25] Base->run()
