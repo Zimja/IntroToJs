@@ -25,3 +25,19 @@ var fizzBuzz = function()
 };
 
 fizzBuzz();
+
+var countB = function(x)
+{
+    var count = 0;
+    for(var i = 0; i < x.length; i = i + 1)
+    {
+        var string = x.charAt(i);
+        if(string == 'B')
+        {
+            count = count + 1;
+        }
+    }
+    console.log('Number of B(s): ' + count);
+};
+
+countB("Berries");
