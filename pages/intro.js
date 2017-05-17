@@ -24,20 +24,40 @@ var fizzBuzz = function()
     }
 };
 
-fizzBuzz();
 
 var countB = function(x)
+{
+    countChar(x, "B");
+    /*
+        var count = 0;
+        for(var i = 0; i < x.length; i = i + 1)
+        {
+            var string = x.charAt(i);
+            if(string == 'B')
+            {
+                count = count + 1;
+            }
+        }
+        console.log('Number of B(s): ' + count);
+    */
+};
+
+
+var countChar = function(x,y)
 {
     var count = 0;
     for(var i = 0; i < x.length; i = i + 1)
     {
         var string = x.charAt(i);
-        if(string == 'B')
+        if(string == y)
         {
             count = count + 1;
         }
     }
-    console.log('Number of B(s): ' + count);
+    console.log('Number of ' + y + '(s): ' + count);
 };
 
+
+fizzBuzz();
 countB("Berries");
+countChar("Berries", "e");
